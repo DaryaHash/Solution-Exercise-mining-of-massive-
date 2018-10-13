@@ -38,5 +38,15 @@
 
 * exercise 2.3.2
 
+**if the data is to stored memory**
+  **map:** matrix r×c divide to r×t that c is dividable to t and vector c×1 divide to t×1
+for each part map task calculate mijvj and sort to component i then calculate (i,sum(mijvj))
+and hash (i,mi) send to reduce task, number of hash is r×t and number of reduce task is r
+
+  **reduce:** each reduce task receive t to hash and sort to i and calculate (i,mi)
+  output is (i,mi) that is rows answer's matrix
+  
+**if the data is not to stored memory**
+
 * exercise 2.3.4
 * exercise 2.3.5
