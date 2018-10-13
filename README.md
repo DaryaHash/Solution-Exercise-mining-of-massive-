@@ -41,19 +41,29 @@
 **if the data  is to stored memory**
 
   **map:** matrix M is r×c, M divide to r×t (that c is dividable to t) and Matrix N is c×n, N divide to t×n
-for each part in map task have ((i,k),(M,j,mij)) and ((i,k),(N,j,njk)) for j same calculate ((i,k),mijnjk)
-and hash ((i,k),mijnjk) send to reduce task
+  for each part in map task have ((i,k),(M,j,mij)) and ((i,k),(N,j,njk)) for j same calculate ((i,k),mijnjk)
+  and hash ((i,k),mijnjk) send to reduce task
 
   **reduce:** in reduce sort to (i,k) and calculate ((i,k), sum(mijnjk)=pik)
   output is ((i,k),pik)
   
 **if the data is not to stored memory**
- **map:** matrix r×c divide to m×t that r&c is dividable to m&t and vector c×1 divide to t×1
-for each part map task calculate (i,(j,mijvj)) and sort to component i then calculate (i,sum(mijvj))
-and hash (i,mi) send to reduce task, number of hash is r×t and number of reduce task is r
 
-  **reduce:** each reduce task receive t to hash and sort to i and calculate (i,mi)
-  output is (i,mi) that is rows answer's matrix
+ **map:** matrix M is r×c divide to v×t (that r&c is dividable to v&t) and Matrix N is c×n divide to t×u
+ for each part map task ((i,k),(M,j,mij)) and ((i,k), (N,j,njk) sort to component j then calculate ((i,k),mijnjk)
+ and hash ((i,k),mijnjk) send to reduce task
+
+  **reduce:** sort to (i,k) and then calculate ((i,k),sum(mijnjk)=pik)
+  output is ((i,k),pik)
   
+* exercise 2.3.3
+
+  * a)
+  
+  * b)
+  
+  * c)
+
 * exercise 2.3.4
+
 * exercise 2.3.5
