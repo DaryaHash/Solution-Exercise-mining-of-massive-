@@ -2,7 +2,7 @@
 
 ## chapter 2
 * exercise 2.3.1
-- a)
+-- a)
 ** b)
 ** c)
 ** d)
