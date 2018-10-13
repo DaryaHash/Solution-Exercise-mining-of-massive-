@@ -38,7 +38,7 @@
   
    **reduce :** in reduce calculate all (1,(1+...+1+1+...+1+...)) and output is (1,count number)
 
-[x] **exercise 2.3.2**
+- [x] **exercise 2.3.2**
 
 **if the data  is to stored memory**
 
@@ -58,7 +58,7 @@
   **reduce:** sort to (i,k) and then calculate ((i,k),sum(mijnjk)=pik)
   output is ((i,k),pik)
   
-[x] **exercise 2.3.3**
+- [x] **exercise 2.3.3**
 
   * a)
   
@@ -66,6 +66,6 @@
   
   * c)
 
-[x] **exercise 2.3.4**
+- [x] **exercise 2.3.4**
 
-[x] **exercise 2.3.5**
+- [x] **exercise 2.3.5**
