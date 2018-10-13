@@ -2,8 +2,9 @@
 
 ## chapter 2
 
-* **exercise 2.3.1**
-  * a)
+[x] **exercise 2.3.1**
+
+  * **a)**
   
   **map:** for each input integer n, define (k,n)-pair that k is constatnt
   then sort (k,ni ) and calculate (k, max (n1,.., nk))
@@ -12,7 +13,7 @@
    **reduce:** in reduce sort again all (k, nj) then calculate (k, max(n1,...,nm))
    and output is (k,nmax)
   
-  * b)
+  * **b)**
   
   **map:** for each input integer n, define (k,n)-pair that k is constatnt
   then sort (k,ni) and hash (k,(n1,.., nk)) send to reduce
@@ -20,7 +21,7 @@
    **reduce:** in reduce sort again all (k,(n1,...,nk))-pairs then calculate (k,avrege(n1,...,nm))
    and output is (k,na verge) 
    
-  * c)
+  * **c)**
    
   **map:** for each input integer n, define (n,1)-pair
   then sort (ni,1)-pairs and instate all (ni,1)-pairs that ni is same include just one (ni,1)-pair
@@ -30,14 +31,14 @@
    **reduce :** in reduce sort again all (ni,1)-pair if (ni,1)-pair is same  incude just one
    and output is (ni,1)
 
-  * d)
+  * **d)**
   
   **map:** for each input integer n, define (1,1)-pair
   then calculate (1,(1+1+...+1)) and send hash (1,(1+...+1))
   
    **reduce :** in reduce calculate all (1,(1+...+1+1+...+1+...)) and output is (1,count number)
 
-* exercise 2.3.2
+[x] **exercise 2.3.2**
 
 **if the data  is to stored memory**
 
@@ -57,7 +58,7 @@
   **reduce:** sort to (i,k) and then calculate ((i,k),sum(mijnjk)=pik)
   output is ((i,k),pik)
   
-* exercise 2.3.3
+[x] **exercise 2.3.3**
 
   * a)
   
@@ -65,6 +66,6 @@
   
   * c)
 
-* exercise 2.3.4
+[x] **exercise 2.3.4**
 
-* exercise 2.3.5
+[x] **exercise 2.3.5**
