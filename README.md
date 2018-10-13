@@ -2,7 +2,7 @@
 
 ## chapter 2
 
-[x]**exercise 2.3.1**
+- [x] **exercise 2.3.1**
 
   * **a)**
   
