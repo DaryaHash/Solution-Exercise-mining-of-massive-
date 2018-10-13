@@ -2,7 +2,7 @@
 
 ## chapter 2
 
-* -exercise 2.3.1-
+* **exercise 2.3.1**
   * a)
   
   **map:** for each input integer n, define (k,n)-pair that k is constatnt
