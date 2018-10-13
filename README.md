@@ -1,1 +1,1 @@
-# Solution-Exercise-mining-life-massive-
+# Solution-Exercise(mining-life-massive)
