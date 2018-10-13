@@ -2,7 +2,7 @@
 
 # chapter 2
 
-- [x] **exercise 2.3.1
+- [x] **exercise 2.3.1**
 
   * **a)**
   
@@ -58,12 +58,10 @@
   **reduce:** sort to (i,k) and then calculate ((i,k),sum(mijnjk)=pik)
   output is ((i,k),pik)
   
-- [x] **exercise 2.3.3**
+- [] **exercise 2.3.3**
 
   * a)
-  
   * b)
-  
   * c)
 
 - [x] **exercise 2.3.4**
