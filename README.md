@@ -16,7 +16,7 @@
   * c)**map:** for each input integer n, define (n ,1)-pair that k is constatnt
   then each chanck sort (n ,1)-pairs and if m pairs similar include just one (n,1)-pair and
   c alculate hash (n,1) that n is diffrent
-  send m hash (n,1) to reduce that m is the number of diffrent pairs 
+  send m hash (n,1) to reduce that m is the number of diffrent pairs
    **reduce :** in reduce sort again all (n,1)-pairs then if m pairs similar include just one
    pair and output is ((n1,.., nm),1)
 
