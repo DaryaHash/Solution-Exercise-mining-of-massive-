@@ -38,13 +38,14 @@
 
 * exercise 2.3.2
 
-**if the data is to stored memory**
-  **map:** matrix r×c divide to r×t that c is dividable to t and vector c×1 divide to t×1
-for each part map task calculate (i,(j,mijvj)) and sort to component i then calculate (i,sum(mijvj)=ai )
-and hash (i,ai) send to reduce task, number of hash is r×t and number of reduce task is r
+**if the data  is to stored memory**
 
-  **reduce:** each reduce task receive t to hash and sort to i and calculate (i,ai)
-  output is (i,ai) that is rows answer's matrix
+  **map:** matrix M is r×c, M divide to r×t (that c is dividable to t) and Matrix N is c×n, N divide to t×n
+for each part in map task have ((i,k),(M,j,mij)) and ((i,k),(N,j,njk)) for j same calculate ((i,k),mijnjk)
+and hash ((i,k),mijnjk) send to reduce task
+
+  **reduce:** in reduce sort to (i,k) and calculate ((i,k), sum(mijnjk)=pik)
+  output is ((i,k),pik)
   
 **if the data is not to stored memory**
  **map:** matrix r×c divide to m×t that r&c is dividable to m&t and vector c×1 divide to t×1
