@@ -1,6 +1,6 @@
 # Solution-Exercise(mining-of-massive)
 
-$\frac {2}{5}$
+$$\frac{2}{5}$$
 
 # chapter 2
 
