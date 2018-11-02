@@ -1,5 +1,7 @@
 # Solution-Exercise(mining-of-massive)
 
+$\frac {2}{5}$
+
 # chapter 2
 
 - [x] **exercise 2.3.1**
